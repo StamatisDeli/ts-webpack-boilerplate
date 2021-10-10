@@ -1,7 +1,8 @@
 const path = require("path");
 
 module.exports = {
-  devtool: "source-map",
+  devtool: "source-map", // generates .js.map source map and .js bundle
+  // devtool: "inlline-source-map", // generates single .js bundle
   entry: "./src/index.ts",
   module: {
     rules: [
@@ -13,7 +14,7 @@ module.exports = {
       {
         test: /\.js$/,
         enforce: "pre",
-        use: ["source-map-loader"],
+        use: ["source-map-loader"], // use this to load .js.map source maps
       },
     ],
   },
