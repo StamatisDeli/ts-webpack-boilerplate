@@ -1,0 +1,2 @@
+(()=>{"use strict";var e,r,t={241:(e,r)=>{Object.defineProperty(r,"__esModule",{value:!0}),r.formData=void 0,r.formData=function(e){var r=e.querySelectorAll("input"),t={};return r.forEach((function(e){t[e.id]=e.value})),{}}}},o={};e=function e(r){var n=o[r];if(void 0!==n)return n.exports;var u=o[r]={exports:{}};return t[r](u,u.exports,e),u.exports}(241),(r=document.querySelector("form")).addEventListener("submit",(function(t){t.preventDefault();var o=(0,e.formData)(r);console.log(o)}))})();
+//# sourceMappingURL=bundle.js.map
