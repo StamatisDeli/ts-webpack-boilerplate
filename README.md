@@ -1,2 +1,11 @@
-# webpack-ts-vanilla-js-boilerplate
-Boierplate for vanilla.js , typescript and webpack, hot reloading
+# Typescript webpack boilerplate
+
+Boierplate for typescript and webpack, hot reloading
+
+# available scripts:
+
+```bash
+yarn dev
+
+yarn build
+```
